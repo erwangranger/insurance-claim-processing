@@ -141,6 +141,7 @@ spec:
         medium: Memory
         sizeLimit: 2Gi
       name: shm
-  replicas: 1
+  ## I would rather have 2 replicas instead of 1
+  replicas: 2
   tolerations: []
   grpcDataEndpoint: 'port:8001'
